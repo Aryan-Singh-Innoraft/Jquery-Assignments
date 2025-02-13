@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".header-wrapper").click(function(){
+        $("div.header-wrapper").css("background-color","red");
+    })
+    $(".left-sidebar").click(function(){
+        $(this).html("<h3>Leftbar</h3>").css("color","white");
+    })
+    $(".extra-content-box").click(function(){
+        $(".main-content-box").fadeOut(2000);
+    })
+})
